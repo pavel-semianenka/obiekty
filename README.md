@@ -20,8 +20,8 @@ Aplikacja **Porównanie obiektowości** to narzędzie, które pozwala użytkowni
 
 1. Skopiuj repozytorium na swój komputer:
    ```bash
-   git clone https://github.com/uzytkownik/oop-comparison.git
-   cd oop-comparison
+   git clone https://github.com/pavel-semianenka/obiekty
+   cd obiekty
    ```
 
 2. Upewnij się, że masz zainstalowanego Pythona oraz Tkinter:
@@ -31,7 +31,7 @@ Aplikacja **Porównanie obiektowości** to narzędzie, które pozwala użytkowni
 
 3. Uruchom aplikację:
    ```bash
-   python main.py
+   python obiekty.py
    ```
 
 ## Instrukcja użytkowania
