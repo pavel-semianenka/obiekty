@@ -56,17 +56,6 @@ oop_advantages = """Zalety obiektowości:
 - **Łatwiejsze debugowanie i rozwój**: Enkapsulacja ogranicza bezpośredni dostęp do danych, co zmniejsza ryzyko błędów.
 - **Elastyczność**: Polimorfizm umożliwia używanie różnych implementacji bez konieczności zmiany kodu wywołującego."""
 
-# Słownik do przechowywania informacji o obiektowości w językach
-#info = {
-#    "C++": f"C++ jest językiem kompilowanym, wspierającym obiektowość przez klasy, dziedziczenie, enkapsulację i polimorfizm.\n\nPrzykład kodu w C++:\n\n```cpp\n\n{read_code_example('cpp_example.cpp')}\n```",
-#    "C#": f"C# to język stworzony przez Microsoft, który jest w pełni obiektowy. Używa on klas i obiektów do reprezentowania danych oraz wspiera silną typizację i dziedziczenie.\n\nPrzykład kodu w C#:\n\n```csharp\n\n{read_code_example('csharp_example.cs')}\n```",
-#    "Python": f"Python jest językiem interpretowanym, który ma prostą i zwięzłą składnię. Obsługuje obiektowość przez klasy i obiekty. Python wspiera również dynamiczne typowanie oraz dziedziczenie.\n\nPrzykład kodu w Pythonie:\n\n```python\n\n{read_code_example('python_example.py')}\n```",
-#    "JavaScript": f"JavaScript jest językiem skryptowym, który obsługuje obiektowość przez prototypy, a nie klasy. Wspiera obiektowe podejście, chociaż różni się od tradycyjnych języków obiektowych jak C++ czy Java.\n\nPrzykład kodu w JavaScript:\n\n```javascript\n\n{read_code_example('javascript_example.js')}\n```",
-#    "PHP": f"PHP jest językiem skryptowym, który wspiera programowanie obiektowe od wersji 5.0. PHP umożliwia tworzenie klas, obiektów, oraz używanie mechanizmów dziedziczenia i polimorfizmu.\n\nPrzykład kodu w PHP:\n\n```php\n\n{read_code_example('php_example.php')}\n```",
-#    "Java": f"Java jest językiem w pełni obiektowym, w którym wszystko jest obiektem. Kluczową cechą Javy jest dziedziczenie i polimorfizm. Każda klasa w Javie dziedziczy po klasie `Object`.\n\nPrzykład kodu w Javie:\n\n```java\n\n{read_code_example('java_example.java')}\n```",
-#    "Rust": f"Rust, mimo że nie jest tradycyjnie uważany za w pełni obiektowy, wspiera koncepcje obiektowości, takie jak enkapsulacja i polimorfizm. Rust zapewnia również dużą kontrolę nad zarządzaniem pamięcią.\n\nPrzykład kodu w Rust:\n\n```rust\n\n{read_code_example('rust_example.rs')}\n```"
-#}
-
 info = {
     "C++": f"C++ jest językiem kompilowanym, wspierającym obiektowość przez klasy, dziedziczenie, enkapsulację i polimorfizm. Oferuje silne typowanie oraz złożoną hierarchię klas, co pozwala na efektywne zarządzanie pamięcią i zasobami.\n\nPrzykład kodu w C++:\n\n```cpp\n\n{read_code_example('cpp_example.cpp')}\n```",
     "C#": f"C# to język stworzony przez Microsoft, który jest w pełni obiektowy. Używa on klas i obiektów do reprezentowania danych oraz wspiera silną typizację i dziedziczenie. Oferuje także zaawansowane funkcje, takie jak LINQ i asynchroniczność, co czyni go elastycznym narzędziem do tworzenia aplikacji.\n\nPrzykład kodu w C#:\n\n```csharp\n\n{read_code_example('csharp_example.cs')}\n```",
