@@ -36,11 +36,6 @@ def read_code_example(filename):
     except FileNotFoundError:
         return f"Błąd: Plik {filename} nie został znaleziony."
 
-
-# Wczytujemy zawartość plików z kodami dla języków
-cpp_example = read_code_example("cpp_example.cpp")
-csharp_example = read_code_example("csharp_example.cs")
-
 # Sekcja "Kluczowe pojęcia obiektowości"
 core_oop_concepts = """Kluczowe pojęcia obiektowości:
 - **Klasa**: Definicja zbioru atrybutów i metod, które reprezentują obiekt.
